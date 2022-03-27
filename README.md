@@ -1,1 +1,1 @@
-# get-max-in-three-num-using-jQuery
+# Get Max In Three Number Using jQuery
