@@ -5,7 +5,14 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Ubuntu', sans-serif;
+  background: #202124;
 }
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgba(255, 255, 255, 0.664);
+    opacity: 1; /* Firefox */
+  }
+
 
 .w-25{
     width: 25%;
@@ -25,22 +32,23 @@
 
 .form>.form-con>label {
     font-size: 1rem;
-    color: rgb(32, 32, 32);
+    color: rgb(255, 255, 255);
 }
 
 .form>.form-con>input {
+    color: #fff;
     margin-top: 3px !important;
     font-size: 1.1rem;
     padding: 5px 10px;
     outline: 0;
     transition: .5s;
-    border: 1px solid rgb(159, 124, 255);
+    border: 1px solid rgb(255, 79, 117);
     border-radius: 2px;
 }
 
 .form>.form-con>input:active,
 .form>.form-con>input:focus {
-    border: 1px solid rgb(79, 4, 255);
+    border: 1px solid rgb(224, 7, 54);
 }
 
 .form>.form-con>button {
@@ -49,7 +57,7 @@
     padding: 5px 10px;
     outline: 0;
     border: none;
-    background: rgb(79, 4, 255);
+    background: rgb(224, 7, 54);
     color: #fff;
     border-radius: 2px;
     cursor: pointer;
@@ -57,19 +65,19 @@
 }
 
 .form>.form-con>button:hover {
-    background: rgb(109, 46, 255);
+    background: rgb(233, 56, 95);
 }
 
 .form>.form-con>button:active {
-    background: rgb(159, 124, 255);
-}
-
-.form>.form-con>button[disabled] {
-    background: rgb(159, 124, 255);
-    cursor: auto;
+    background: rgb(189, 12, 50);
 }
 
 .form-error {
     color: rgb(255, 67, 67);
     font-size: .9rem;
 }
+
+h1{
+    color: #fff;
+}
+
